@@ -50,6 +50,8 @@ Bottom of PCB: https://github.com/Supermagnum/double-dip/blob/main/back.jpg
 Dimentions:
 https://github.com/Supermagnum/double-dip/blob/main/dimentions.png
 
+Schematic diagram: https://github.com/Supermagnum/double-dip/blob/main/tht-dip.pdf
+
 Aisler: https://aisler.net/p/HVXYPXGN
 
 Made with: http://www.kicad.org/
