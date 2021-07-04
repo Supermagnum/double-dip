@@ -123,17 +123,6 @@ Wire Wire Line
 	7350 1550 6550 1550
 Connection ~ 7350 1850
 $Comp
-L Device:C C3
-U 1 1 60CCFCFB
-P 5800 1100
-F 0 "C3" H 5915 1146 50  0000 L CNN
-F 1 "33uF" H 5915 1055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5838 950 50  0001 C CNN
-F 3 "~" H 5800 1100 50  0001 C CNN
-	1    5800 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 60CD2387
 P 6300 950
@@ -185,11 +174,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 950  6550 1550
 Wire Wire Line
-	6150 950  5800 950 
-Wire Wire Line
-	5800 950  5400 950 
-Connection ~ 5800 950 
-Wire Wire Line
 	5400 950  4900 950 
 Connection ~ 5400 950 
 Wire Wire Line
@@ -197,7 +181,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 1250 5800 1250
 Connection ~ 5400 1250
-Connection ~ 5800 1250
 Text GLabel 4900 900  1    50   Input ~ 0
 VCC
 Text GLabel 4950 2050 1    50   Input ~ 0
@@ -1072,4 +1055,21 @@ Wire Wire Line
 Connection ~ 4900 1250
 NoConn ~ 3250 5600
 NoConn ~ 3250 7100
+Wire Wire Line
+	5400 950  5800 950 
+$Comp
+L Device:CP C3
+U 1 1 60E42580
+P 5800 1100
+F 0 "C3" H 5918 1146 50  0000 L CNN
+F 1 "33uF" H 5918 1055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5838 950 50  0001 C CNN
+F 3 "~" H 5800 1100 50  0001 C CNN
+	1    5800 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 950 
+Wire Wire Line
+	5800 950  6150 950 
+Connection ~ 5800 1250
 $EndSCHEMATC
