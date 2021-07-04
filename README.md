@@ -26,7 +26,11 @@ A good set of headphones or ear protection with built in speakers will keep out 
 
 Should also work nice with hydrophones. PZT-5H tubes is best for that. You want more gain, 35 or 40 dB for that. In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A epoxy filled container or inside the hydrophone bulb is OK. Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
 
-Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable. Some methods of mounting a piezoelectric disk can be found here: https://locusonus.org/wiki/index.php?page=Hydrophone.en
+Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf 
+
+Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable. 
+
+Some methods of mounting a piezoelectric disk can be found here: https://locusonus.org/wiki/index.php?page=Hydrophone.en
 
 Made with: http://www.kicad.org/
 
@@ -34,7 +38,7 @@ KiCad uses an integrated environment for all of the stages of the design process
 
 KiCad is a cross-platform program, and of curse free!
 
-To do: update the values of the selectable resistors on the PCB board and schematic diagram, they does not match the text in the schematic diagram.
+To do: 
 
 Upload PCB board file to Aisler.
 
