@@ -30,6 +30,15 @@ Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-bal
 
 Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable. 
 
+The XLR 3 pin plug has a solder lug for the shield for a reason. 
+Those are wired up like this: https://github.com/Supermagnum/piezo-balanced/blob/main/XLR%2BConnector%2BPinout%2BDiagram%2BRear%2BPin%2B2%2BHot%2Bv2%2Bgreen__01.jpg
+
+It is my opinion that a shielded cable with 3 conductors inside is the best. Suggested cable: Digi-Key Part Number: 30-00910-5-ND
+
+Piezoelectric disk, red wire for positive polarity. Black for negative: https://github.com/Supermagnum/double-gain/blob/main/Piezo-element-6.jpg
+
+Based on: http://www.richardmudhar.com/blog/piezo-contact-microphone-hi-z-amplifier-low-noise-version/
+
 Some methods of mounting a piezoelectric disk can be found here: https://locusonus.org/wiki/index.php?page=Hydrophone.en
 
 Top of PCB: https://github.com/Supermagnum/double-dip/blob/main/front.jpg
