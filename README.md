@@ -32,14 +32,23 @@ Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold t
 
 Some methods of mounting a piezoelectric disk can be found here: https://locusonus.org/wiki/index.php?page=Hydrophone.en
 
+Top of PCB: https://github.com/Supermagnum/double-dip/blob/main/front.jpg
+
+Top of pcb without components:https://github.com/Supermagnum/double-dip/blob/main/bare-front.jpg
+
+Bottom of PCB: https://github.com/Supermagnum/double-dip/blob/main/back.jpg
+
+Dimentions:
+https://github.com/Supermagnum/double-dip/blob/main/dimentions.png
+
+Aisler: https://aisler.net/p/HVXYPXGN
+
 Made with: http://www.kicad.org/
 
 KiCad uses an integrated environment for all of the stages of the design process: Schematic capture, PCB layout, Gerber file generation/visualization, and library editing.
 
 KiCad is a cross-platform program, and of curse free!
 
-To do: 
 
-Upload PCB board file to Aisler.
 
 
