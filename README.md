@@ -34,3 +34,8 @@ KiCad uses an integrated environment for all of the stages of the design process
 
 KiCad is a cross-platform program, and of curse free!
 
+To do: update the values of the selectable resistors on the PCB board and schematic diagram, they does not match the text in the schematic diagram.
+
+Upload PCB board file to Aisler.
+
+
