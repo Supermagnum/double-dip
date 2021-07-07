@@ -6,6 +6,8 @@ It has balanced output,input and should run on +48 phantom power. Shielded cable
 It is important that the circuit board is mounted inside a metal box, and Ø2mm conducting metal standoffs are used. The corner pads of the PCB board is reserved for that. Of course the PCB board and components must not come in contact with any metal surface expect the standoffs.
 
 
+The circuit may benefit from a Zobel network, that is a 680 pF capacitor and a 150 ohms resistor in series between pin 2 and 3 on the output connector. It should avoid high frequency oscillation in the mic cable.
+
 Why: The problem with piezo guitar pickups and piezoelectric crystals is that they are not well matched to typical audio inputs. By their nature they can generate a lot of signal, but they cannot drive a 50 kilohm typical line input. The pickup needs to work into a much higher impedance, typically 1 megohm or so.
 
 So what to people do? They go and plug a piezoelectric disks output directly into the line input of their recorder, typical impedance 50k, or the plug-in-power mic input of their recorder, typical impedance about 7k, and they start to bitch and moan that this damn thing sounds tinny. Which is does ! But they don't understand why!
