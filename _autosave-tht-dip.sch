@@ -79,8 +79,6 @@ $EndComp
 Wire Wire Line
 	8400 3500 8400 3050
 Wire Wire Line
-	8400 2200 7000 2200
-Wire Wire Line
 	6450 2200 6450 2250
 Wire Wire Line
 	7000 2150 7000 2200
@@ -200,17 +198,6 @@ F 2 "" H 1900 3700 50  0001 C CNN
 F 3 "" H 1900 3700 50  0001 C CNN
 	1    1900 3700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 60D2F44A
-P 1900 2800
-F 0 "J4" H 1792 2575 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 1792 2666 50  0001 C CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 1900 2800 50  0001 C CNN
-F 3 "~" H 1900 2800 50  0001 C CNN
-	1    1900 2800
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D D4
@@ -474,28 +461,6 @@ F 3 "" H 1050 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 60CF6022
-P 1050 3300
-F 0 "J6" H 942 3167 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 942 3166 50  0001 C CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 1050 3300 50  0001 C CNN
-F 3 "~" H 1050 3300 50  0001 C CNN
-	1    1050 3300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J3
-U 1 1 60CF602C
-P 1050 2800
-F 0 "J3" H 942 2575 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 942 2666 50  0001 C CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 1050 2800 50  0001 C CNN
-F 3 "~" H 1050 2800 50  0001 C CNN
-	1    1050 2800
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 60CF6040
 P 1050 1700
@@ -615,7 +580,7 @@ $EndComp
 Wire Wire Line
 	5050 4800 5050 5000
 Wire Wire Line
-	1050 3600 1900 3600
+	1050 3600 1500 3600
 Text Notes 4100 6300 0    50   ~ 0
 SW1 and SW2 switch setting, Gain values in dB:\n700=18\n1K=20\n3K=29\n4K=32\n5K=34\n6K=35\n7K=37\n8K=38\nBoth must be set to the same.
 Text Label 8050 2200 0    50   ~ 0
@@ -624,14 +589,6 @@ Text Label 7800 2700 0    50   ~ 0
 3
 Text Label 8400 2900 0    50   ~ 0
 1
-Wire Wire Line
-	1900 1950 1900 2600
-Wire Wire Line
-	1050 1950 1050 2600
-Text Notes 1950 3300 1    50   ~ 0
-+ Piezo XTAL
-Text Notes 1100 3300 1    50   ~ 0
-Piezo XTAL +
 Wire Wire Line
 	1100 4650 850  4650
 $Comp
@@ -695,39 +652,6 @@ F 1 "Conn_01x01_Female" H 1192 4266 50  0001 C CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 1300 4400 50  0001 C CNN
 F 3 "~" H 1300 4400 50  0001 C CNN
 	1    1300 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J1
-U 1 1 60F4FEF2
-P 8600 2200
-F 0 "J1" H 8492 1975 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8492 2066 50  0001 C CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 8600 2200 50  0001 C CNN
-F 3 "~" H 8600 2200 50  0001 C CNN
-	1    8600 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J2
-U 1 1 60F520D0
-P 8300 2500
-F 0 "J2" H 8192 2275 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8192 2366 50  0001 C CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 8300 2500 50  0001 C CNN
-F 3 "~" H 8300 2500 50  0001 C CNN
-	1    8300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 60F525DE
-P 8600 2800
-F 0 "J5" H 8492 2575 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8492 2666 50  0001 C CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 8600 2800 50  0001 C CNN
-F 3 "~" H 8600 2800 50  0001 C CNN
-	1    8600 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1102,4 +1026,45 @@ Wire Wire Line
 	3750 4900 3750 4800
 Wire Wire Line
 	3450 4900 3250 4900
+$Comp
+L Connector:XLR3 J?
+U 1 1 60F74D0E
+P 1500 2950
+F 0 "J?" V 1546 3178 50  0000 L CNN
+F 1 "XLR3" V 1455 3178 50  0000 L CNN
+F 2 "" H 1500 2950 50  0001 C CNN
+F 3 " ~" H 1500 2950 50  0001 C CNN
+	1    1500 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 3250 1500 3600
+Connection ~ 1500 3600
+Wire Wire Line
+	1500 3600 1900 3600
+Wire Wire Line
+	1500 2650 1050 2650
+Wire Wire Line
+	1050 1950 1050 2650
+Wire Wire Line
+	1800 2950 1900 2950
+Wire Wire Line
+	1900 1950 1900 2950
+$Comp
+L Connector:XLR3 J?
+U 1 1 60F8CC31
+P 8550 2500
+F 0 "J?" V 8596 2728 50  0000 L CNN
+F 1 "XLR3" V 8505 2728 50  0000 L CNN
+F 2 "" H 8550 2500 50  0001 C CNN
+F 3 " ~" H 8550 2500 50  0001 C CNN
+	1    8550 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7000 2200 8550 2200
+Wire Wire Line
+	8250 2500 8100 2500
+Wire Wire Line
+	8400 2800 8550 2800
 $EndSCHEMATC
