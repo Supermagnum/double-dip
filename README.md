@@ -5,6 +5,8 @@ It has balanced output,input and should run on +48 phantom power. Shielded cable
 
 It is important that the circuit board is mounted inside a metal box, and Ø2mm conducting metal standoffs are used. The corner pads of the PCB board is reserved for that. Of course the PCB board and components must not come in contact with any metal surface expect the standoffs.
 
+The Opamps used pulls 8mA per chip, be sure that your equipment can handle that,
+or issues might arise.
 
 The circuit may benefit from a Zobel network, that is a 680 pF capacitor and a 150 ohms resistor in series between pin 2 and 3 on the output connector. It should avoid high frequency oscillation in the mic cable.
 
