@@ -617,7 +617,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 3600 1900 3600
 Text Notes 4100 6300 0    50   ~ 0
-SW1 and SW2 switch setting, Gain values in dB:\n1K=26\n3K=29\n4K=32\n5K=34\n6K=35\n7K=37\n8K=38\nBoth must be set to the same.
+SW1 and SW2 switch setting, Gain values in dB:\n700=18\n1K=20\n3K=29\n4K=32\n5K=34\n6K=35\n7K=37\n8K=38\nBoth must be set to the same.
 Text Label 8050 2200 0    50   ~ 0
 2
 Text Label 7800 2700 0    50   ~ 0
@@ -744,82 +744,85 @@ $EndComp
 $Comp
 L Device:R R12
 U 1 1 60E34E99
-P 3600 4900
-F 0 "R12" V 3600 4900 50  0000 C CNN
-F 1 "1K" V 3550 5100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 4900 50  0001 C CNN
-F 3 "~" H 3600 4900 50  0001 C CNN
-	1    3600 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 60E37960
 P 3600 5000
-F 0 "R13" V 3600 5000 50  0000 C CNN
-F 1 "3K" V 3550 5200 50  0000 C CNN
+F 0 "R12" V 3600 5000 50  0000 C CNN
+F 1 "1K" V 3550 5250 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 5000 50  0001 C CNN
 F 3 "~" H 3600 5000 50  0001 C CNN
 	1    3600 5000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R14
-U 1 1 60E384C8
+L Device:R R13
+U 1 1 60E37960
 P 3600 5100
-F 0 "R14" V 3600 5100 50  0000 C CNN
-F 1 "4K" V 3550 5300 50  0000 C CNN
+F 0 "R13" V 3600 5100 50  0000 C CNN
+F 1 "3K" V 3550 5350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 5100 50  0001 C CNN
 F 3 "~" H 3600 5100 50  0001 C CNN
 	1    3600 5100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R15
-U 1 1 60E38F82
+L Device:R R14
+U 1 1 60E384C8
 P 3600 5200
-F 0 "R15" V 3600 5200 50  0000 C CNN
-F 1 "5K" V 3550 5400 50  0000 C CNN
+F 0 "R14" V 3600 5200 50  0000 C CNN
+F 1 "4K" V 3550 5450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 5200 50  0001 C CNN
 F 3 "~" H 3600 5200 50  0001 C CNN
 	1    3600 5200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R16
-U 1 1 60E39AA1
+L Device:R R15
+U 1 1 60E38F82
 P 3600 5300
-F 0 "R16" V 3600 5300 50  0000 C CNN
-F 1 "6K" V 3550 5500 50  0000 C CNN
+F 0 "R15" V 3600 5300 50  0000 C CNN
+F 1 "5K" V 3550 5550 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 5300 50  0001 C CNN
 F 3 "~" H 3600 5300 50  0001 C CNN
 	1    3600 5300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R17
-U 1 1 60E3A57C
+L Device:R R16
+U 1 1 60E39AA1
 P 3600 5400
-F 0 "R17" V 3600 5400 50  0000 C CNN
-F 1 "7K" V 3550 5600 50  0000 C CNN
+F 0 "R16" V 3600 5400 50  0000 C CNN
+F 1 "6K" V 3550 5650 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 5400 50  0001 C CNN
 F 3 "~" H 3600 5400 50  0001 C CNN
 	1    3600 5400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R18
-U 1 1 60E3B1DF
+L Device:R R17
+U 1 1 60E3A57C
 P 3600 5500
-F 0 "R18" V 3600 5500 50  0000 C CNN
-F 1 "8K" V 3550 5700 50  0000 C CNN
+F 0 "R17" V 3600 5500 50  0000 C CNN
+F 1 "7K" V 3550 5750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 5500 50  0001 C CNN
 F 3 "~" H 3600 5500 50  0001 C CNN
 	1    3600 5500
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R R18
+U 1 1 60E3B1DF
+P 3600 5600
+F 0 "R18" V 3600 5600 50  0000 C CNN
+F 1 "8K" V 3550 5850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 5600 50  0001 C CNN
+F 3 "~" H 3600 5600 50  0001 C CNN
+	1    3600 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 5600 3750 5500
 Wire Wire Line
 	3750 5500 3750 5400
+Connection ~ 3750 5500
 Wire Wire Line
 	3750 5400 3750 5300
 Connection ~ 3750 5400
@@ -833,22 +836,19 @@ Wire Wire Line
 	3750 5100 3750 5000
 Connection ~ 3750 5100
 Wire Wire Line
-	3750 5000 3750 4900
-Connection ~ 3750 5000
+	3450 5000 3250 5000
 Wire Wire Line
-	3450 4900 3250 4900
+	3250 5100 3450 5100
 Wire Wire Line
-	3250 5000 3450 5000
+	3450 5200 3250 5200
 Wire Wire Line
-	3450 5100 3250 5100
+	3250 5300 3450 5300
 Wire Wire Line
-	3250 5200 3450 5200
-Wire Wire Line
-	3450 5300 3250 5300
-Wire Wire Line
-	3250 5400 3450 5400
+	3450 5400 3250 5400
 Wire Wire Line
 	3250 5500 3450 5500
+Wire Wire Line
+	3250 5600 3450 5600
 Wire Wire Line
 	2650 5600 2650 5500
 Wire Wire Line
@@ -873,13 +873,13 @@ Text GLabel 2450 4900 0    50   Input ~ 0
 ResIN
 Text GLabel 4650 3300 3    50   Input ~ 0
 ResIN
-Text GLabel 3750 4700 1    50   Input ~ 0
+Text GLabel 3750 4800 1    50   Input ~ 0
 ResOUT
 Text GLabel 5350 3300 3    50   Input ~ 0
 ResOUT
 Wire Wire Line
-	3750 4900 3750 4700
-Connection ~ 3750 4900
+	3750 5000 3750 4900
+Connection ~ 3750 5000
 Wire Wire Line
 	2650 4900 2450 4900
 Connection ~ 2650 4900
@@ -897,82 +897,85 @@ $EndComp
 $Comp
 L Device:R R20
 U 1 1 60EB3DAD
-P 3600 6400
-F 0 "R20" V 3600 6400 50  0000 C CNN
-F 1 "1K" V 3550 6600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 6400 50  0001 C CNN
-F 3 "~" H 3600 6400 50  0001 C CNN
-	1    3600 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R21
-U 1 1 60EB3DB7
 P 3600 6500
-F 0 "R21" V 3600 6500 50  0000 C CNN
-F 1 "3K" V 3550 6700 50  0000 C CNN
+F 0 "R20" V 3600 6500 50  0000 C CNN
+F 1 "1K" V 3550 6700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 6500 50  0001 C CNN
 F 3 "~" H 3600 6500 50  0001 C CNN
 	1    3600 6500
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R22
-U 1 1 60EB3DC1
+L Device:R R21
+U 1 1 60EB3DB7
 P 3600 6600
-F 0 "R22" V 3600 6600 50  0000 C CNN
-F 1 "4K" V 3550 6800 50  0000 C CNN
+F 0 "R21" V 3600 6600 50  0000 C CNN
+F 1 "3K" V 3550 6800 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 6600 50  0001 C CNN
 F 3 "~" H 3600 6600 50  0001 C CNN
 	1    3600 6600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R23
-U 1 1 60EB3DCB
+L Device:R R22
+U 1 1 60EB3DC1
 P 3600 6700
-F 0 "R23" V 3600 6700 50  0000 C CNN
-F 1 "5K" V 3550 6900 50  0000 C CNN
+F 0 "R22" V 3600 6700 50  0000 C CNN
+F 1 "4K" V 3550 6900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 6700 50  0001 C CNN
 F 3 "~" H 3600 6700 50  0001 C CNN
 	1    3600 6700
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R24
-U 1 1 60EB3DD5
+L Device:R R23
+U 1 1 60EB3DCB
 P 3600 6800
-F 0 "R24" V 3600 6800 50  0000 C CNN
-F 1 "6K" V 3550 7000 50  0000 C CNN
+F 0 "R23" V 3600 6800 50  0000 C CNN
+F 1 "5K" V 3550 7000 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 6800 50  0001 C CNN
 F 3 "~" H 3600 6800 50  0001 C CNN
 	1    3600 6800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R25
-U 1 1 60EB3DDF
+L Device:R R24
+U 1 1 60EB3DD5
 P 3600 6900
-F 0 "R25" V 3600 6900 50  0000 C CNN
-F 1 "7K" V 3550 7100 50  0000 C CNN
+F 0 "R24" V 3600 6900 50  0000 C CNN
+F 1 "6K" V 3550 7100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 6900 50  0001 C CNN
 F 3 "~" H 3600 6900 50  0001 C CNN
 	1    3600 6900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R26
-U 1 1 60EB3DE9
+L Device:R R25
+U 1 1 60EB3DDF
 P 3600 7000
-F 0 "R26" V 3600 7000 50  0000 C CNN
-F 1 "8K" V 3550 7200 50  0000 C CNN
+F 0 "R25" V 3600 7000 50  0000 C CNN
+F 1 "7K" V 3550 7200 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 7000 50  0001 C CNN
 F 3 "~" H 3600 7000 50  0001 C CNN
 	1    3600 7000
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R R26
+U 1 1 60EB3DE9
+P 3600 7100
+F 0 "R26" V 3600 7100 50  0000 C CNN
+F 1 "8K" V 3550 7300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 7100 50  0001 C CNN
+F 3 "~" H 3600 7100 50  0001 C CNN
+	1    3600 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 7100 3750 7000
 Wire Wire Line
 	3750 7000 3750 6900
+Connection ~ 3750 7000
 Wire Wire Line
 	3750 6900 3750 6800
 Connection ~ 3750 6900
@@ -986,22 +989,19 @@ Wire Wire Line
 	3750 6600 3750 6500
 Connection ~ 3750 6600
 Wire Wire Line
-	3750 6500 3750 6400
-Connection ~ 3750 6500
+	3450 6500 3250 6500
 Wire Wire Line
-	3450 6400 3250 6400
+	3250 6600 3450 6600
 Wire Wire Line
-	3250 6500 3450 6500
+	3450 6700 3250 6700
 Wire Wire Line
-	3450 6600 3250 6600
+	3250 6800 3450 6800
 Wire Wire Line
-	3250 6700 3450 6700
-Wire Wire Line
-	3450 6800 3250 6800
-Wire Wire Line
-	3250 6900 3450 6900
+	3450 6900 3250 6900
 Wire Wire Line
 	3250 7000 3450 7000
+Wire Wire Line
+	3250 7100 3450 7100
 Wire Wire Line
 	2650 7100 2650 7000
 Wire Wire Line
@@ -1024,11 +1024,11 @@ Wire Wire Line
 Connection ~ 2650 6500
 Text GLabel 5500 4700 3    50   Input ~ 0
 ResIN1
-Text GLabel 3750 6200 1    50   Input ~ 0
+Text GLabel 3750 6300 1    50   Input ~ 0
 ResOUT2
 Wire Wire Line
-	3750 6400 3750 6200
-Connection ~ 3750 6400
+	3750 6500 3750 6400
+Connection ~ 3750 6500
 Wire Wire Line
 	2650 6400 2450 6400
 Connection ~ 2650 6400
@@ -1053,8 +1053,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 1250 4900 1250
 Connection ~ 4900 1250
-NoConn ~ 3250 5600
-NoConn ~ 3250 7100
 Wire Wire Line
 	5400 950  5800 950 
 $Comp
@@ -1072,4 +1070,36 @@ Connection ~ 5800 950
 Wire Wire Line
 	5800 950  6150 950 
 Connection ~ 5800 1250
+$Comp
+L Device:R R27
+U 1 1 60F48FD5
+P 3600 6400
+F 0 "R27" V 3600 6400 50  0000 C CNN
+F 1 "700" V 3550 6650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 6400 50  0001 C CNN
+F 3 "~" H 3600 6400 50  0001 C CNN
+	1    3600 6400
+	0    1    1    0   
+$EndComp
+Connection ~ 3750 6400
+Wire Wire Line
+	3750 6400 3750 6300
+Wire Wire Line
+	3450 6400 3250 6400
+$Comp
+L Device:R R19
+U 1 1 60F513CC
+P 3600 4900
+F 0 "R19" V 3600 4900 50  0000 C CNN
+F 1 "700" V 3550 5150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3530 4900 50  0001 C CNN
+F 3 "~" H 3600 4900 50  0001 C CNN
+	1    3600 4900
+	0    1    1    0   
+$EndComp
+Connection ~ 3750 4900
+Wire Wire Line
+	3750 4900 3750 4800
+Wire Wire Line
+	3450 4900 3250 4900
 $EndSCHEMATC

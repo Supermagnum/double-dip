@@ -98,7 +98,7 @@ L Device:D_Zener D1
 U 1 1 60CCADCC
 P 6550 1700
 F 0 "D1" V 6504 1780 50  0000 L CNN
-F 1 "1N4746A (18V)" V 6595 1780 50  0000 L CNN
+F 1 "1N5241B-TR" V 6595 1780 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 1700 50  0001 C CNN
 F 3 "~" H 6550 1700 50  0001 C CNN
 	1    6550 1700
@@ -183,10 +183,10 @@ Wire Wire Line
 Connection ~ 5400 1250
 Text GLabel 4900 900  1    50   Input ~ 0
 VCC
-Text GLabel 4950 2050 1    50   Input ~ 0
+Text GLabel 6800 3350 1    50   Input ~ 0
 VCC
 Wire Wire Line
-	4950 2050 4950 2200
+	6800 3350 6800 3500
 Connection ~ 4900 950 
 Wire Wire Line
 	1900 3700 1900 3600
@@ -223,13 +223,10 @@ F 3 "~" H 3600 2650 50  0001 C CNN
 	1    3600 2650
 	0    1    1    0   
 $EndComp
-NoConn ~ 5050 2200
-NoConn ~ 5050 2800
-NoConn ~ 5150 2800
-Text GLabel 4950 2900 3    50   Input ~ 0
+Text GLabel 6800 4200 3    50   Input ~ 0
 V-
 Wire Wire Line
-	4950 2900 4950 2800
+	6800 4200 6800 4100
 $Comp
 L Device:R R4
 U 1 1 60CDC00E
@@ -259,17 +256,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 3250 3600 3500
 Connection ~ 7350 2700
-$Comp
-L Amplifier_Operational:NE5534 U1
-U 1 1 60CCF692
-P 5050 2500
-F 0 "U1" H 5394 2546 50  0000 L CNN
-F 1 "NE5534" H 5394 2455 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5100 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5534.pdf" H 5100 2650 50  0001 C CNN
-	1    5050 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7200 2700 7350 2700
 $Comp
@@ -360,7 +346,6 @@ Wire Wire Line
 	4000 2800 3600 2800
 Wire Wire Line
 	5350 2500 5750 2500
-Connection ~ 5350 2500
 $Comp
 L Device:R R9
 U 1 1 60D282CB
@@ -401,15 +386,6 @@ Wire Wire Line
 	3700 1250 3600 1250
 Connection ~ 3600 1250
 Connection ~ 8400 3050
-Text GLabel 5700 3500 1    50   Input ~ 0
-VCC
-Wire Wire Line
-	5700 3500 5700 3650
-NoConn ~ 5800 4250
-Text GLabel 5700 4350 3    50   Input ~ 0
-V-
-Wire Wire Line
-	5700 4350 5700 4250
 Wire Wire Line
 	5500 4050 5500 4700
 Wire Wire Line
@@ -417,12 +393,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4200 6100 4200
 Wire Wire Line
-	6100 4200 6100 3950
-Wire Wire Line
 	6550 2700 6100 2700
-Wire Wire Line
-	6100 2700 6100 3950
-Connection ~ 6100 3950
 Connection ~ 3600 3500
 Wire Wire Line
 	4200 3500 3600 3500
@@ -443,17 +414,6 @@ Wire Wire Line
 Connection ~ 4650 2600
 Wire Wire Line
 	4650 2600 4750 2600
-$Comp
-L Amplifier_Operational:NE5534 U2
-U 1 1 60D5461E
-P 5800 3950
-F 0 "U2" H 6144 3996 50  0000 L CNN
-F 1 "NE5534" H 6144 3905 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5850 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5534.pdf" H 5850 4100 50  0001 C CNN
-	1    5800 3950
-	1    0    0    -1  
-$EndComp
 Text Notes 8650 2700 0    50   ~ 0
 +48 V phantom power
 Wire Wire Line
@@ -514,8 +474,6 @@ Wire Wire Line
 Connection ~ 1900 1550
 Wire Wire Line
 	1900 1550 2800 1550
-NoConn ~ 5800 3650
-NoConn ~ 5900 4250
 $Comp
 L Device:D D2
 U 1 1 60D2C176
@@ -600,7 +558,6 @@ Wire Wire Line
 	5050 4500 5050 4350
 Wire Wire Line
 	5050 4050 5500 4050
-Connection ~ 5500 4050
 $Comp
 L power:GND #PWR07
 U 1 1 60D6632B
@@ -1102,4 +1059,46 @@ Wire Wire Line
 	3750 4900 3750 4800
 Wire Wire Line
 	3450 4900 3250 4900
+Wire Wire Line
+	6100 2700 6100 3950
+$Comp
+L Amplifier_Operational:TL082 U1
+U 1 1 60F62BF2
+P 5050 2500
+F 0 "U1" H 5050 2867 50  0000 C CNN
+F 1 "TL082BCP " H 5050 2776 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5050 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5050 2500 50  0001 C CNN
+	1    5050 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 2500
+$Comp
+L Amplifier_Operational:TL082 U1
+U 2 1 60F66AC4
+P 5800 3950
+F 0 "U1" H 5800 4317 50  0000 C CNN
+F 1 "TL082BCP " H 5800 4226 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5800 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5800 3950 50  0001 C CNN
+	2    5800 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 3950
+Wire Wire Line
+	6100 3950 6100 4200
+Connection ~ 5500 4050
+$Comp
+L Amplifier_Operational:TL082 U1
+U 3 1 60F6BF6F
+P 6900 3800
+F 0 "U1" H 6858 3846 50  0000 L CNN
+F 1 "TL082BCP " H 6858 3755 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6900 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6900 3800 50  0001 C CNN
+	3    6900 3800
+	1    0    0    -1  
+$EndComp
+Text Notes 5500 1750 0    50   ~ 0
+ZENER 11V 500MW DO35
 $EndSCHEMATC

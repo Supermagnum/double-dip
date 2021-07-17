@@ -2,7 +2,7 @@
 %TF.CreationDate,2021-07-17T21:41:45+02:00*%
 %TF.ProjectId,tht-dip,7468742d-6469-4702-9e6b-696361645f70,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Paste,Top*%
+%TF.FileFunction,Glue,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
