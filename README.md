@@ -1,5 +1,6 @@
 # double-dip
 A small PCB that uses two TL082BCP  op amps to amplify a signal from a contact microphone.
+It has adjustable gain.
 
 SMD adapter with LT6234 :
 https://aisler.net/p/IXOHRKHO
@@ -34,7 +35,7 @@ Of course one can use a recorder like a tascam dr40x, as long as it can supply +
 
 A good set of headphones or ear protection with built in speakers will keep out unwanted sounds or noise.
 
-Should also work nice with hydrophones. PZT-5H tubes is best for that. You want more gain, 35 or 40 dB for that. In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A marine silicon filled container or inside the hydrophone bulb is OK. 
+Should also work nice with hydrophones. PZT-5H tubes is best for that.  In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A marine silicon filled container or inside the hydrophone bulb is OK. 
 
 
 Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf 
