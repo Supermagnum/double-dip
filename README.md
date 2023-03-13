@@ -34,11 +34,14 @@ Of course one can use a recorder like a tascam dr40x, as long as it can supply +
 
 A good set of headphones or ear protection with built in speakers will keep out unwanted sounds or noise.
 
-Should also work nice with hydrophones. PZT-5H tubes is best for that. You want more gain, 35 or 40 dB for that. In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A epoxy filled container or inside the hydrophone bulb is OK. Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
+Should also work nice with hydrophones. PZT-5H tubes is best for that. You want more gain, 35 or 40 dB for that. In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A marine silicon filled container or inside the hydrophone bulb is OK. 
+
 
 Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf 
 
 Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable. 
+
+Marine silicon is prefered because of the maximum sensitivity, and a small metal box typically used for candy is very nice.
 
 The XLR 3 pin plug has a solder lug for the shield for a reason. Connect the shield and the drain wire to that spesific lug.
 Those are wired up like this: https://github.com/Supermagnum/piezo-balanced/blob/main/XLR%2BConnector%2BPinout%2BDiagram%2BRear%2BPin%2B2%2BHot%2Bv2%2Bgreen__01.jpg
@@ -62,7 +65,7 @@ https://github.com/Supermagnum/double-dip/blob/main/dimentions.png
 
 Schematic diagram: https://github.com/Supermagnum/double-dip/blob/main/tht-dip.pdf
 
-Aisler: https://aisler.net/p/HVXYPXGN
+
 
 Made with: http://www.kicad.org/
 
