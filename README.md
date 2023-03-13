@@ -64,7 +64,7 @@ Bottom of PCB: https://github.com/Supermagnum/double-dip/blob/main/back.jpg
 Dimentions:
 https://github.com/Supermagnum/double-dip/blob/main/dimentions.png
 
-Schematic diagram: https://github.com/Supermagnum/double-dip/blob/main/tht-dip.pdf
+Schematic diagram: https://github.com/Supermagnum/double-dip/blob/bb5499467ea877b63b42d0ee97301f11d04cb7f4/Gerbers/tht-dip.pdf
 
 PCB way:
 https://www.pcbway.com/project/shareproject/A_small_PCB_that_uses_two_TL082BCP_op_amps_to_amplify_a_signal_from_a_contact_mi_0254b0fe.html
