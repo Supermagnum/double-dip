@@ -1,6 +1,5 @@
 # double-dip
 A small PCB that uses two TL082BCP  op amps to amplify a signal from a contact microphone.
-It has adjustable gain.
 
 SMD adapter with LT6234 :
 https://aisler.net/p/IXOHRKHO
@@ -23,9 +22,9 @@ So what to people do? They go and plug a piezoelectric disks output directly int
 
 The reason why these devices often sound tinny is because the piezo sensor presents its signal through a series capacitance which is small, typically 15nF or less. When wired to a normal 50 kilohm line input this forms a high-pass filter, which eliminates the bass.
 
-This circuit board solves that, and amplifies the signal. How many dB it amplifies is dependent on the potmeters position.
+This circuit board solves that, and amplifies the signal. How many dB it amplifies is dependent on the resistance on the resistors used.The data for that is on the schematic diagram.
 
-It's fairly easy and straight forward to solder the components to the circuit board, a nice pointy soldering iron, solder, a magnifying glass, and a ohm or multimeter is all that is needed. Of course one needs a suitable metal box, and the circuit boards components must not come in contact with the metal box. That will cause short circuit, so it's best mounted on stand offs. Also, use the magnifying glass to check that no one of the soldering pads has been bridged an that the diodes is in the correct direction.
+It's fairly easy and straight forward to solder the components to the circuit board, a nice pointy soldering iron, solder, a magnifying glass, and a ohm or multimeter is all that is needed. Of course one needs a suitable metal box, and the circuit boards components must not come in contact with the metal box. That will cause short circuit, so it's best mounted on stand offs. Also, use the magnifying glass to check that no one of the soldering pads has been bridged.
 
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things. You will need two piezoelectric disks for that, mounted in a metal box. Non electric conductive super glue is useable for that. Just glue them to a flat surface. The piezoelectric disks should be electrically insulated from the metal box.
 
@@ -35,14 +34,11 @@ Of course one can use a recorder like a tascam dr40x, as long as it can supply +
 
 A good set of headphones or ear protection with built in speakers will keep out unwanted sounds or noise.
 
-Should also work nice with hydrophones. PZT-5H tubes is best for that.  In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A marine silicon filled container or inside the hydrophone bulb is OK. 
-
+Should also work nice with hydrophones. PZT-5H tubes is best for that. You want more gain, 35 or 40 dB for that. In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A epoxy filled container or inside the hydrophone bulb is OK. Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
 
 Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf 
 
-Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof with as thin walls as possible that can handle the water pressure is also useable. 
-
-Marine silicon is prefered because of the maximum sensitivity, and a small metal box typically used for candy is very nice as it has thin walls.
+Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable. 
 
 The XLR 3 pin plug has a solder lug for the shield for a reason. Connect the shield and the drain wire to that spesific lug.
 Those are wired up like this: https://github.com/Supermagnum/piezo-balanced/blob/main/XLR%2BConnector%2BPinout%2BDiagram%2BRear%2BPin%2B2%2BHot%2Bv2%2Bgreen__01.jpg
@@ -64,12 +60,9 @@ Bottom of PCB: https://github.com/Supermagnum/double-dip/blob/main/back.jpg
 Dimentions:
 https://github.com/Supermagnum/double-dip/blob/main/dimentions.png
 
-Schematic diagram: https://github.com/Supermagnum/double-dip/blob/bb5499467ea877b63b42d0ee97301f11d04cb7f4/Gerbers/tht-dip.pdf
+Schematic diagram: https://github.com/Supermagnum/double-dip/blob/main/tht-dip.pdf
 
-PCB way:
-https://www.pcbway.com/project/shareproject/A_small_PCB_that_uses_two_TL082BCP_op_amps_to_amplify_a_signal_from_a_contact_mi_0254b0fe.html
-
-
+Aisler: https://aisler.net/p/HVXYPXGN
 
 Made with: http://www.kicad.org/
 
