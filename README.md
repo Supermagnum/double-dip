@@ -1,11 +1,10 @@
 # double-dip
-A small PCB that uses two TL082BCP  op amps to amplify a signal from a contact microphone.
+A small PCB that uses a TL082BCP chip with two op amps to amplify a signal from a contact microphone.
 
 SMD adapter with LT6234 :
 https://aisler.net/p/IXOHRKHO
 https://github.com/Supermagnum/smd-adapter
 It has lower self noise.
-
 
 
 It has balanced output,input and should run on +48 phantom power. Shielded cable must be used for connection to the piezo crystals. Please use 0,5 W metal film resistors with 1% tolerance or better and audio quality capacitors.
@@ -39,6 +38,8 @@ Should also work nice with hydrophones. PZT-5H tubes is best for that. You want 
 Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf 
 
 Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable. 
+
+I used a simple metal box with thin walls that used to contain candy and filled it with food grade silicone.
 
 The XLR 3 pin plug has a solder lug for the shield for a reason. Connect the shield and the drain wire to that spesific lug.
 Those are wired up like this: https://github.com/Supermagnum/piezo-balanced/blob/main/XLR%2BConnector%2BPinout%2BDiagram%2BRear%2BPin%2B2%2BHot%2Bv2%2Bgreen__01.jpg
