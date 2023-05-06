@@ -19,5 +19,5 @@
 "10","2","R3, R4","1M","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~","","","",""
 "11","2","R5, R6","4.7K","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~","","","",""
 "12","2","R7, R8","470","Device:R","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~","","","",""
-"13","1","RV1","PTD902-2015K-B103","Device:R_Potentiometer_Dual","potmeter:PTD902-2015K-B103","~","","","",""
+"13","1","RV1","51ABD-B28-B15/B15L","Device:R_Potentiometer_Dual","potmeter:51ABD-B28-B15/B15L","~","","","",""
 "14","1","U1","TL082BCP ","Amplifier_Operational:TL082","Package_DIP:DIP-8_W7.62mm","http://www.ti.com/lit/ds/symlink/tl081.pdf","","","",""
