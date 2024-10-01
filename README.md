@@ -6,12 +6,10 @@ https://aisler.net/p/IXOHRKHO
 https://github.com/Supermagnum/smd-adapter
 It has lower self noise.
 
-
-It has balanced output,input and should run on +48 phantom power. Shielded cable must be used for connection to the piezo crystals. Please use 0,5 W metal film resistors with 1% tolerance or better and audio quality capacitors.
+It has balanced output,input and runs on +48 phantom power. Shielded cable must be used for connection to the piezo crystals. Please use 0,5 W metal film resistors with 1% tolerance or better and audio quality capacitors.
 C0G (NP0) or X7R capacitors is very good.
 
 It is important that the circuit board is mounted inside a metal box, and Ø2mm conducting metal standoffs are used. The corner pads of the PCB board is reserved for that. Of course the PCB board and components must not come in contact with any metal surface expect the standoffs.
-
 
 The circuit may benefit from a Zobel network, that is a 680 pF capacitor and a 150 ohms resistor in series between pin 2 and 3 on the output or the input connector. It should avoid high frequency oscillation in a long cable.
 
@@ -36,7 +34,6 @@ A good set of headphones or ear protection with built in speakers will keep out 
 Should also work nice with hydrophones. PZT-5H tubes is best for that. You want more gain, 35 or 40 dB for that. In case of a hydrophone it's possible to have the hydrophone attached with a long cable and the amplifier/buffer circuit close to the piezoelectric elements. It's of course extremely important that the circuit board and connections are absolutely waterproof. A epoxy filled container or inside the hydrophone bulb is OK. Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
 
 Some interesting ideas can be found in: https://github.com/Supermagnum/piezo-balanced/blob/main/Barlow-et-al-2008-HydrophoneConstruction_TM-417.pdf 
-
 Note: Ecopoxy Flowcast does not need any vacuum, just a mold and a way to hold the piezoelectric tubes centered. It's also safer to work with. Of course two piezoelectric disks inside something waterproof that can handle the water pressure is also useable. 
 
 I used a simple metal box with thin walls that used to contain candy and filled it with food grade silicone.
@@ -69,7 +66,7 @@ Made with: http://www.kicad.org/
 
 KiCad uses an integrated environment for all of the stages of the design process: Schematic capture, PCB layout, Gerber file generation/visualization, and library editing.
 
-KiCad is a cross-platform program, and of curse free!
+KiCad is a cross-platform program, and free!
 
 
 
